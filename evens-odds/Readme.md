@@ -6,8 +6,8 @@ A basic example of even/odd numbers that uses Meson Build system with Google Tes
 docker-compose up --detach --build
 
 # ssh to the app container
-docker exec -it chstructingest-1 bash  # if it's running
-docker run -it chstructingest bash  # if it's not running
+docker exec -it container-name bash  # if it's running
+docker run -it imagename bash  # if it's not running
 
 ```
 
